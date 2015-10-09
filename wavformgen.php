@@ -79,7 +79,7 @@ function render_waveform($arg){
     if( ! file_exists("$png") )
     {
         $cmd = "sox -v 0.99 '$arg' -c 2 -t wav - | wav2png --foreground-color=$forecolor --background-color=$backcolor -o '$png' /dev/stdin";
-        error_log($cmd);
+        //error_log($cmd);
         exec("clear");
         exec($cmd);
         sleep($sleep);
@@ -93,7 +93,7 @@ function render_waveform($arg){
     {
 
         $cmd = "sox -v 0.99 '$arg' -c 2 -t wav - | wav2json -o '$json' /dev/stdin";
-        error_log($cmd);
+        //error_log($cmd);
         exec("clear");
         exec($cmd);
         sleep($sleep);
