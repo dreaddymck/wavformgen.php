@@ -134,10 +134,10 @@ function render_waveform($target){
         }
     }
 
-    var_dump($_SERVER["argv"][5]);
-    var_dump($overwrite);
-    var_dump($forecolor);
-    var_dump($backcolor);
+//     var_dump($_SERVER["argv"][5]);
+//     var_dump($overwrite);
+//     var_dump($forecolor);
+//     var_dump($backcolor);
     
     //sleep($sleep);
 }
