@@ -10,7 +10,7 @@
 
 $target     = $_SERVER["argv"][1]  ? $_SERVER["argv"][1] : "";
 $output     = $_SERVER["argv"][2]  ? $_SERVER["argv"][2] : 'png';
-$forecolor  = $_SERVER["argv"][3]  ? $_SERVER["argv"][3] : '2e4562ff';
+$forecolor  = $_SERVER["argv"][3]  ? $_SERVER["argv"][3] : '4a235aff';
 $backcolor  = $_SERVER["argv"][4]  ? $_SERVER["argv"][4] : '00000000';
 $overwrite  = $_SERVER["argv"][5]; 
 
